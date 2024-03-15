@@ -1,6 +1,0 @@
-framework module Pods_familiars {
-  umbrella header "Pods-familiars-umbrella.h"
-
-  export *
-  module * { export * }
-}

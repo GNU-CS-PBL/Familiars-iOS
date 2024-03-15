@@ -1,6 +1,0 @@
-framework module Pods_familiarsTests {
-  umbrella header "Pods-familiarsTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
