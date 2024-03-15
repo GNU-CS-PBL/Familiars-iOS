@@ -11,6 +11,16 @@
 		B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F642BA3D982003DF164 /* ContentView.swift */; };
 		B3B65F672BA3D983003DF164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F662BA3D983003DF164 /* Assets.xcassets */; };
 		B3B65F6A2BA3D983003DF164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F692BA3D983003DF164 /* Preview Assets.xcassets */; };
+		B3B65F8F2BA3EAE3003DF164 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F862BA3EAE2003DF164 /* Pretendard-Black.ttf */; };
+		B3B65F902BA3EAE3003DF164 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F872BA3EAE3003DF164 /* Pretendard-SemiBold.ttf */; };
+		B3B65F912BA3EAE3003DF164 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F882BA3EAE3003DF164 /* Pretendard-Light.ttf */; };
+		B3B65F922BA3EAE3003DF164 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F892BA3EAE3003DF164 /* Pretendard-Bold.ttf */; };
+		B3B65F932BA3EAE3003DF164 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F8A2BA3EAE3003DF164 /* Pretendard-Medium.ttf */; };
+		B3B65F942BA3EAE3003DF164 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F8B2BA3EAE3003DF164 /* Pretendard-ExtraLight.ttf */; };
+		B3B65F952BA3EAE3003DF164 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F8C2BA3EAE3003DF164 /* Pretendard-Regular.ttf */; };
+		B3B65F962BA3EAE3003DF164 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F8D2BA3EAE3003DF164 /* Pretendard-Thin.ttf */; };
+		B3B65F972BA3EAE3003DF164 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F8E2BA3EAE3003DF164 /* Pretendard-ExtraBold.ttf */; };
+		B3B65F9A2BA3ECD5003DF164 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F992BA3ECD5003DF164 /* Extension.swift */; };
 		EAD8394C2B54C1CD2CC4EC8A /* Pods_Familiars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C94A09606F0AB3E7B257FB /* Pods_Familiars.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +31,17 @@
 		B3B65F642BA3D982003DF164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3B65F662BA3D983003DF164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B65F692BA3D983003DF164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3B65F862BA3EAE2003DF164 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		B3B65F872BA3EAE3003DF164 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3B65F882BA3EAE3003DF164 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		B3B65F892BA3EAE3003DF164 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		B3B65F8A2BA3EAE3003DF164 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		B3B65F8B2BA3EAE3003DF164 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B3B65F8C2BA3EAE3003DF164 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		B3B65F8D2BA3EAE3003DF164 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		B3B65F8E2BA3EAE3003DF164 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B3B65F982BA3EBF7003DF164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3B65F992BA3ECD5003DF164 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		CDE55BE0FC2288352D849FB1 /* Pods-Familiars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Familiars.release.xcconfig"; path = "Target Support Files/Pods-Familiars/Pods-Familiars.release.xcconfig"; sourceTree = "<group>"; };
 		D6C94A09606F0AB3E7B257FB /* Pods_Familiars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Familiars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,6 +87,7 @@
 		B3B65F612BA3D982003DF164 /* Familiars */ = {
 			isa = PBXGroup;
 			children = (
+				B3B65F982BA3EBF7003DF164 /* Info.plist */,
 				B3B65F762BA3E435003DF164 /* Application */,
 				B3B65F752BA3E429003DF164 /* Resource */,
 				B3B65F742BA3E420003DF164 /* Util */,
@@ -145,6 +167,7 @@
 		B3B65F772BA3E446003DF164 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				B3B65F852BA3EAB1003DF164 /* Pretendard */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -161,6 +184,7 @@
 		B3B65F792BA3E488003DF164 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B3B65F992BA3ECD5003DF164 /* Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -242,6 +266,22 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		B3B65F852BA3EAB1003DF164 /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				B3B65F8D2BA3EAE3003DF164 /* Pretendard-Thin.ttf */,
+				B3B65F8B2BA3EAE3003DF164 /* Pretendard-ExtraLight.ttf */,
+				B3B65F882BA3EAE3003DF164 /* Pretendard-Light.ttf */,
+				B3B65F8C2BA3EAE3003DF164 /* Pretendard-Regular.ttf */,
+				B3B65F8A2BA3EAE3003DF164 /* Pretendard-Medium.ttf */,
+				B3B65F872BA3EAE3003DF164 /* Pretendard-SemiBold.ttf */,
+				B3B65F892BA3EAE3003DF164 /* Pretendard-Bold.ttf */,
+				B3B65F8E2BA3EAE3003DF164 /* Pretendard-ExtraBold.ttf */,
+				B3B65F862BA3EAE2003DF164 /* Pretendard-Black.ttf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
 		E17ACAD4CEE37379D7383446 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,8 +351,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B65F902BA3EAE3003DF164 /* Pretendard-SemiBold.ttf in Resources */,
 				B3B65F6A2BA3D983003DF164 /* Preview Assets.xcassets in Resources */,
+				B3B65F972BA3EAE3003DF164 /* Pretendard-ExtraBold.ttf in Resources */,
 				B3B65F672BA3D983003DF164 /* Assets.xcassets in Resources */,
+				B3B65F912BA3EAE3003DF164 /* Pretendard-Light.ttf in Resources */,
+				B3B65F922BA3EAE3003DF164 /* Pretendard-Bold.ttf in Resources */,
+				B3B65F952BA3EAE3003DF164 /* Pretendard-Regular.ttf in Resources */,
+				B3B65F962BA3EAE3003DF164 /* Pretendard-Thin.ttf in Resources */,
+				B3B65F932BA3EAE3003DF164 /* Pretendard-Medium.ttf in Resources */,
+				B3B65F8F2BA3EAE3003DF164 /* Pretendard-Black.ttf in Resources */,
+				B3B65F942BA3EAE3003DF164 /* Pretendard-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B65F9A2BA3ECD5003DF164 /* Extension.swift in Sources */,
 				B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */,
 				B3B65F632BA3D982003DF164 /* FamiliarsApp.swift in Sources */,
 			);
@@ -504,6 +554,7 @@
 				DEVELOPMENT_TEAM = BB7N2YGU75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Familiars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -534,6 +585,7 @@
 				DEVELOPMENT_TEAM = BB7N2YGU75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Familiars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
