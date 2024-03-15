@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA01E2BA431D00069CDCB /* LoginView.swift */; };
+		B34AA0212BA43E850069CDCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA0202BA43E850069CDCB /* Constants.swift */; };
 		B3B65F632BA3D982003DF164 /* FamiliarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F622BA3D982003DF164 /* FamiliarsApp.swift */; };
 		B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F642BA3D982003DF164 /* ContentView.swift */; };
 		B3B65F672BA3D983003DF164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F662BA3D983003DF164 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		A52869940D083A69147F0B86 /* Pods-Familiars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Familiars.debug.xcconfig"; path = "Target Support Files/Pods-Familiars/Pods-Familiars.debug.xcconfig"; sourceTree = "<group>"; };
+		B34AA01E2BA431D00069CDCB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B34AA0202BA43E850069CDCB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B3B65F5F2BA3D982003DF164 /* Familiars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Familiars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B65F622BA3D982003DF164 /* FamiliarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarsApp.swift; sourceTree = "<group>"; };
 		B3B65F642BA3D982003DF164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 		B3B65F7A2BA3E48E003DF164 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				B34AA0202BA43E850069CDCB /* Constants.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 		B3B65F7E2BA3E4B1003DF164 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				B34AA01E2BA431D00069CDCB /* LoginView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -416,6 +422,8 @@
 			files = (
 				B3B65F9A2BA3ECD5003DF164 /* Extension.swift in Sources */,
 				B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */,
+				B34AA0212BA43E850069CDCB /* Constants.swift in Sources */,
+				B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */,
 				B3B65F632BA3D982003DF164 /* FamiliarsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
