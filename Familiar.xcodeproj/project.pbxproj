@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA01E2BA431D00069CDCB /* LoginView.swift */; };
 		B34AA0212BA43E850069CDCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA0202BA43E850069CDCB /* Constants.swift */; };
-		B3B65F632BA3D982003DF164 /* FamiliarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F622BA3D982003DF164 /* FamiliarsApp.swift */; };
+		B39F8F5F2BA4B58B0075B529 /* RegNicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F5E2BA4B58B0075B529 /* RegNicknameView.swift */; };
+		B39F8F612BA4B5980075B529 /* RegBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F602BA4B5980075B529 /* RegBirthdayView.swift */; };
+		B39F8F632BA4B5A40075B529 /* RegProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F622BA4B5A40075B529 /* RegProfileView.swift */; };
+		B39F8F652BA4B5AD0075B529 /* RegTermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F642BA4B5AD0075B529 /* RegTermView.swift */; };
+		B39F8F672BA4B5B90075B529 /* RegEndingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F662BA4B5B90075B529 /* RegEndingView.swift */; };
+		B39F8F6A2BA569470075B529 /* StandardTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F692BA569470075B529 /* StandardTextField.swift */; };
+		B3B65F632BA3D982003DF164 /* FamiliarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F622BA3D982003DF164 /* FamiliarApp.swift */; };
 		B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F642BA3D982003DF164 /* ContentView.swift */; };
 		B3B65F672BA3D983003DF164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F662BA3D983003DF164 /* Assets.xcassets */; };
 		B3B65F6A2BA3D983003DF164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F692BA3D983003DF164 /* Preview Assets.xcassets */; };
@@ -30,8 +36,14 @@
 		A52869940D083A69147F0B86 /* Pods-Familiars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Familiars.debug.xcconfig"; path = "Target Support Files/Pods-Familiars/Pods-Familiars.debug.xcconfig"; sourceTree = "<group>"; };
 		B34AA01E2BA431D00069CDCB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B34AA0202BA43E850069CDCB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B3B65F5F2BA3D982003DF164 /* Familiars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Familiars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3B65F622BA3D982003DF164 /* FamiliarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarsApp.swift; sourceTree = "<group>"; };
+		B39F8F5E2BA4B58B0075B529 /* RegNicknameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegNicknameView.swift; sourceTree = "<group>"; };
+		B39F8F602BA4B5980075B529 /* RegBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegBirthdayView.swift; sourceTree = "<group>"; };
+		B39F8F622BA4B5A40075B529 /* RegProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegProfileView.swift; sourceTree = "<group>"; };
+		B39F8F642BA4B5AD0075B529 /* RegTermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegTermView.swift; sourceTree = "<group>"; };
+		B39F8F662BA4B5B90075B529 /* RegEndingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEndingView.swift; sourceTree = "<group>"; };
+		B39F8F692BA569470075B529 /* StandardTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextField.swift; sourceTree = "<group>"; };
+		B3B65F5F2BA3D982003DF164 /* Familiar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Familiar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B65F622BA3D982003DF164 /* FamiliarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarApp.swift; sourceTree = "<group>"; };
 		B3B65F642BA3D982003DF164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3B65F662BA3D983003DF164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B65F692BA3D983003DF164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -70,10 +82,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B39F8F682BA562440075B529 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B39F8F692BA569470075B529 /* StandardTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B3B65F562BA3D982003DF164 = {
 			isa = PBXGroup;
 			children = (
-				B3B65F612BA3D982003DF164 /* Familiars */,
+				B3B65F612BA3D982003DF164 /* Familiar */,
 				B3B65F602BA3D982003DF164 /* Products */,
 				E17ACAD4CEE37379D7383446 /* Pods */,
 				4E2CCCFED787B60C87160407 /* Frameworks */,
@@ -83,12 +103,12 @@
 		B3B65F602BA3D982003DF164 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3B65F5F2BA3D982003DF164 /* Familiars.app */,
+				B3B65F5F2BA3D982003DF164 /* Familiar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3B65F612BA3D982003DF164 /* Familiars */ = {
+		B3B65F612BA3D982003DF164 /* Familiar */ = {
 			isa = PBXGroup;
 			children = (
 				B3B65F982BA3EBF7003DF164 /* Info.plist */,
@@ -100,7 +120,7 @@
 				B3B65F712BA3E401003DF164 /* Domain */,
 				B3B65F702BA3E3F3003DF164 /* Network */,
 			);
-			path = Familiars;
+			path = Familiar;
 			sourceTree = "<group>";
 		};
 		B3B65F702BA3E3F3003DF164 /* Network */ = {
@@ -146,6 +166,7 @@
 				B3B65F7B2BA3E497003DF164 /* Enum */,
 				B3B65F7A2BA3E48E003DF164 /* Constant */,
 				B3B65F792BA3E488003DF164 /* Extension */,
+				B39F8F682BA562440075B529 /* Components */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -162,7 +183,7 @@
 		B3B65F762BA3E435003DF164 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				B3B65F622BA3D982003DF164 /* FamiliarsApp.swift */,
+				B3B65F622BA3D982003DF164 /* FamiliarApp.swift */,
 				B3B65F642BA3D982003DF164 /* ContentView.swift */,
 			);
 			path = Application;
@@ -226,6 +247,11 @@
 			isa = PBXGroup;
 			children = (
 				B34AA01E2BA431D00069CDCB /* LoginView.swift */,
+				B39F8F5E2BA4B58B0075B529 /* RegNicknameView.swift */,
+				B39F8F602BA4B5980075B529 /* RegBirthdayView.swift */,
+				B39F8F622BA4B5A40075B529 /* RegProfileView.swift */,
+				B39F8F642BA4B5AD0075B529 /* RegTermView.swift */,
+				B39F8F662BA4B5B90075B529 /* RegEndingView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -300,9 +326,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3B65F5E2BA3D982003DF164 /* Familiars */ = {
+		B3B65F5E2BA3D982003DF164 /* Familiar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3B65F6D2BA3D983003DF164 /* Build configuration list for PBXNativeTarget "Familiars" */;
+			buildConfigurationList = B3B65F6D2BA3D983003DF164 /* Build configuration list for PBXNativeTarget "Familiar" */;
 			buildPhases = (
 				F85ABD9A0298955568F801FA /* [CP] Check Pods Manifest.lock */,
 				B3B65F5B2BA3D982003DF164 /* Sources */,
@@ -314,9 +340,9 @@
 			);
 			dependencies = (
 			);
-			name = Familiars;
+			name = Familiar;
 			productName = Familiars;
-			productReference = B3B65F5F2BA3D982003DF164 /* Familiars.app */;
+			productReference = B3B65F5F2BA3D982003DF164 /* Familiar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -334,7 +360,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B3B65F5A2BA3D982003DF164 /* Build configuration list for PBXProject "Familiars" */;
+			buildConfigurationList = B3B65F5A2BA3D982003DF164 /* Build configuration list for PBXProject "Familiar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -347,7 +373,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3B65F5E2BA3D982003DF164 /* Familiars */,
+				B3B65F5E2BA3D982003DF164 /* Familiar */,
 			);
 		};
 /* End PBXProject section */
@@ -421,10 +447,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B65F9A2BA3ECD5003DF164 /* Extension.swift in Sources */,
+				B39F8F652BA4B5AD0075B529 /* RegTermView.swift in Sources */,
+				B39F8F632BA4B5A40075B529 /* RegProfileView.swift in Sources */,
+				B39F8F612BA4B5980075B529 /* RegBirthdayView.swift in Sources */,
 				B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */,
+				B39F8F6A2BA569470075B529 /* StandardTextField.swift in Sources */,
 				B34AA0212BA43E850069CDCB /* Constants.swift in Sources */,
+				B39F8F672BA4B5B90075B529 /* RegEndingView.swift in Sources */,
+				B39F8F5F2BA4B58B0075B529 /* RegNicknameView.swift in Sources */,
 				B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */,
-				B3B65F632BA3D982003DF164 /* FamiliarsApp.swift in Sources */,
+				B3B65F632BA3D982003DF164 /* FamiliarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +605,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryuwon.Familiars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuwon.Familiar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -604,7 +636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryuwon.Familiars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuwon.Familiar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -615,7 +647,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3B65F5A2BA3D982003DF164 /* Build configuration list for PBXProject "Familiars" */ = {
+		B3B65F5A2BA3D982003DF164 /* Build configuration list for PBXProject "Familiar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3B65F6B2BA3D983003DF164 /* Debug */,
@@ -624,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3B65F6D2BA3D983003DF164 /* Build configuration list for PBXNativeTarget "Familiars" */ = {
+		B3B65F6D2BA3D983003DF164 /* Build configuration list for PBXNativeTarget "Familiar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3B65F6E2BA3D983003DF164 /* Debug */,
