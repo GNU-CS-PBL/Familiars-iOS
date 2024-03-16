@@ -10,6 +10,11 @@ import SwiftUI
 /// Constants - 공통으로 사용되는 상수 값 관리
 struct Constants {
     // MARK: - padding
+    enum Paddings {
+        static let regTop: CGFloat = 72
+        static let regBottom: CGFloat = 56
+        static let regHorizontal: CGFloat = 24
+    }
     
     // MARK: - Font
     
