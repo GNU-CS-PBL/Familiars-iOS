@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B30B02FC2BA5B32A0012620D /* StandardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B02FB2BA5B32A0012620D /* StandardButtonStyle.swift */; };
+		B30B02FC2BA5B32A0012620D /* StdButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B02FB2BA5B32A0012620D /* StdButtonStyle.swift */; };
+		B30B02FE2BA5C62A0012620D /* RegExplnTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B02FD2BA5C62A0012620D /* RegExplnTitle.swift */; };
 		B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA01E2BA431D00069CDCB /* LoginView.swift */; };
 		B34AA0212BA43E850069CDCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA0202BA43E850069CDCB /* Constants.swift */; };
+		B3955C5A2BBBF098002339E1 /* StdTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3955C592BBBF098002339E1 /* StdTextField.swift */; };
+		B3955C5C2BBBFDE7002339E1 /* NicknameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3955C5B2BBBFDE7002339E1 /* NicknameError.swift */; };
+		B3955C5E2BBE8138002339E1 /* ErrorMessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3955C5D2BBE8138002339E1 /* ErrorMessageText.swift */; };
 		B39F8F5F2BA4B58B0075B529 /* RegNicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F5E2BA4B58B0075B529 /* RegNicknameView.swift */; };
 		B39F8F612BA4B5980075B529 /* RegBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F602BA4B5980075B529 /* RegBirthdayView.swift */; };
 		B39F8F632BA4B5A40075B529 /* RegProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F622BA4B5A40075B529 /* RegProfileView.swift */; };
 		B39F8F652BA4B5AD0075B529 /* RegTermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F642BA4B5AD0075B529 /* RegTermView.swift */; };
 		B39F8F672BA4B5B90075B529 /* RegEndingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F662BA4B5B90075B529 /* RegEndingView.swift */; };
-		B39F8F6A2BA569470075B529 /* StandardTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F692BA569470075B529 /* StandardTextField.swift */; };
+		B39F8F6A2BA569470075B529 /* StdTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F8F692BA569470075B529 /* StdTextFieldStyle.swift */; };
 		B3B65F632BA3D982003DF164 /* FamiliarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F622BA3D982003DF164 /* FamiliarApp.swift */; };
 		B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B65F642BA3D982003DF164 /* ContentView.swift */; };
 		B3B65F672BA3D983003DF164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B65F662BA3D983003DF164 /* Assets.xcassets */; };
@@ -35,15 +39,19 @@
 
 /* Begin PBXFileReference section */
 		A52869940D083A69147F0B86 /* Pods-Familiars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Familiars.debug.xcconfig"; path = "Target Support Files/Pods-Familiars/Pods-Familiars.debug.xcconfig"; sourceTree = "<group>"; };
-		B30B02FB2BA5B32A0012620D /* StandardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButtonStyle.swift; sourceTree = "<group>"; };
+		B30B02FB2BA5B32A0012620D /* StdButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdButtonStyle.swift; sourceTree = "<group>"; };
+		B30B02FD2BA5C62A0012620D /* RegExplnTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegExplnTitle.swift; sourceTree = "<group>"; };
 		B34AA01E2BA431D00069CDCB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B34AA0202BA43E850069CDCB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3955C592BBBF098002339E1 /* StdTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdTextField.swift; sourceTree = "<group>"; };
+		B3955C5B2BBBFDE7002339E1 /* NicknameError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameError.swift; sourceTree = "<group>"; };
+		B3955C5D2BBE8138002339E1 /* ErrorMessageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageText.swift; sourceTree = "<group>"; };
 		B39F8F5E2BA4B58B0075B529 /* RegNicknameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegNicknameView.swift; sourceTree = "<group>"; };
 		B39F8F602BA4B5980075B529 /* RegBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegBirthdayView.swift; sourceTree = "<group>"; };
 		B39F8F622BA4B5A40075B529 /* RegProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegProfileView.swift; sourceTree = "<group>"; };
 		B39F8F642BA4B5AD0075B529 /* RegTermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegTermView.swift; sourceTree = "<group>"; };
 		B39F8F662BA4B5B90075B529 /* RegEndingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegEndingView.swift; sourceTree = "<group>"; };
-		B39F8F692BA569470075B529 /* StandardTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextField.swift; sourceTree = "<group>"; };
+		B39F8F692BA569470075B529 /* StdTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdTextFieldStyle.swift; sourceTree = "<group>"; };
 		B3B65F5F2BA3D982003DF164 /* Familiar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Familiar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B65F622BA3D982003DF164 /* FamiliarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarApp.swift; sourceTree = "<group>"; };
 		B3B65F642BA3D982003DF164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,7 +95,8 @@
 		B30B02FA2BA5B2F30012620D /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				B30B02FB2BA5B32A0012620D /* StandardButtonStyle.swift */,
+				B30B02FB2BA5B32A0012620D /* StdButtonStyle.swift */,
+				B39F8F692BA569470075B529 /* StdTextFieldStyle.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -95,7 +104,9 @@
 		B39F8F682BA562440075B529 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				B39F8F692BA569470075B529 /* StandardTextField.swift */,
+				B30B02FD2BA5C62A0012620D /* RegExplnTitle.swift */,
+				B3955C592BBBF098002339E1 /* StdTextField.swift */,
+				B3955C5D2BBE8138002339E1 /* ErrorMessageText.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -236,6 +247,7 @@
 		B3B65F7B2BA3E497003DF164 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				B3955C5B2BBBFDE7002339E1 /* NicknameError.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -460,15 +472,19 @@
 				B3B65F9A2BA3ECD5003DF164 /* Extension.swift in Sources */,
 				B39F8F652BA4B5AD0075B529 /* RegTermView.swift in Sources */,
 				B39F8F632BA4B5A40075B529 /* RegProfileView.swift in Sources */,
+				B3955C5A2BBBF098002339E1 /* StdTextField.swift in Sources */,
 				B39F8F612BA4B5980075B529 /* RegBirthdayView.swift in Sources */,
+				B3955C5E2BBE8138002339E1 /* ErrorMessageText.swift in Sources */,
+				B30B02FE2BA5C62A0012620D /* RegExplnTitle.swift in Sources */,
 				B3B65F652BA3D982003DF164 /* ContentView.swift in Sources */,
-				B39F8F6A2BA569470075B529 /* StandardTextField.swift in Sources */,
-				B30B02FC2BA5B32A0012620D /* StandardButtonStyle.swift in Sources */,
+				B39F8F6A2BA569470075B529 /* StdTextFieldStyle.swift in Sources */,
+				B30B02FC2BA5B32A0012620D /* StdButtonStyle.swift in Sources */,
 				B34AA0212BA43E850069CDCB /* Constants.swift in Sources */,
 				B39F8F672BA4B5B90075B529 /* RegEndingView.swift in Sources */,
 				B39F8F5F2BA4B58B0075B529 /* RegNicknameView.swift in Sources */,
 				B34AA01F2BA431D00069CDCB /* LoginView.swift in Sources */,
 				B3B65F632BA3D982003DF164 /* FamiliarApp.swift in Sources */,
+				B3955C5C2BBBFDE7002339E1 /* NicknameError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

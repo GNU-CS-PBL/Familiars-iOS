@@ -39,7 +39,7 @@ extension LoginView {
                         .weight(.medium)
                 )
                 .multilineTextAlignment(.center)
-                .foregroundColor(Constants.main200)
+                .foregroundColor(Constants.Colors.main200)
             Text("가족과 함께니까")
                 .font(
                     Font.custom("Pretendard-Medium", size: 16)

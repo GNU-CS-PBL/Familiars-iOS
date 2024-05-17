@@ -1,5 +1,5 @@
 //
-//  StandardButtonStyle.swift
+//  StdButtonStyle.swift
 //  Familiar
 //
 //  Created by 준호 on 3/16/24.
@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: - ButtonStyle
 struct StandardButtonStyle: ButtonStyle {
     var labelColor = Color.white
     var backgroundColor = Constants.Colors.main200

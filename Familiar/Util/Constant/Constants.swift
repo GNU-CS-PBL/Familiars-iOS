@@ -12,7 +12,7 @@ struct Constants {
     // MARK: - padding
     enum Paddings {
         static let regTop: CGFloat = 72
-        static let regBottom: CGFloat = 56
+        static let regBottom: CGFloat = 24
         static let regHorizontal: CGFloat = 24
     }
     
